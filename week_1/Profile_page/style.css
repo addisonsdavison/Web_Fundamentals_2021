@@ -51,15 +51,81 @@ a{
     width: 1000px;
     height: 700px;
     background-color: lightgrey;
-    display: flex;
 }
 
 .col1{
     width: 500px;
+    height: 900px;
     background-color: lightskyblue;
 }
 
 .col2{
     width: 500px;
+    height: 900px;
     background-color: plum;
+}
+
+.user-card{
+    outline: 2px solid black;
+
+}
+
+.user-circle{
+    position: relative;
+    top: 49px;
+    margin-left: 15px;
+    /* margin-top: 30px; */
+}
+
+.user-circle > img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.upper-nav{
+    background-color: teal;
+    width: inherit;
+    height: 77px;
+
+}
+
+.lower-nav{
+    background-color: whitesmoke;
+    height: 141px;
+    padding-left: 10px;
+    padding-top: 17px;
+
+}
+
+.map-marker{
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.p{
+    margin-top: 10px;
+    
+}
+
+.gear{
+    margin-top: 10px;
+    
+}
+
+.gear > img{
+    height: 10px;
+    width: 10px;
+    margin-right: 3px;
+}
+
+.gear >a{
+    color: blue;
+}
+
+.map-marker > img{
+    height: 15px;
+    width: 15px;
 }

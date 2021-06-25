@@ -13,3 +13,4 @@ for(var i = 0; i <= numbers.length; i++){
 // your code here!
     
 console.log("there are " + countPositives + " positive values");
+

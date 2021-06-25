@@ -1,0 +1,47 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 1000px;
+    font-family: 'Courier New';
+}
+.nav{
+    background-color: #333333;
+    color: #ffffff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-right: 116px;
+    margin-right: 134px;
+}
+
+.nav-title{
+    margin-left: 100px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    height: 25px;
+    width: 90px;
+    background-color: turquoise;
+    color: white;
+    border: 5px;
+    margin-right: 100px;
+}

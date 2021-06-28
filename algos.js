@@ -14,3 +14,12 @@ for(var i = 0; i <= numbers.length; i++){
     
 console.log("there are " + countPositives + " positive values");
 
+// REVERSE AN ARRAY
+// CREATE A FUNCTION WHERE GIVEN AN ARRAY YOU REVERSE THE ARRAY AND RETURN THE ARRAY
+// ["a", "b", "c", "d", "e"] => ["e", "d", "c", "b", "a"]
+
+// CREATE A FUNCTION WRAPPER (1 param / array type)
+// ITERATE THROUGHT ARRAY (FOR LOOP)
+// NEED A TEMP VARIABLE TO STORE A VALUE
+// SWAP THE VALUES WITHIN THE ARRAY
+// RETURN THE ARRAY

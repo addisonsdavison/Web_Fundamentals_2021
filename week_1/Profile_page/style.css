@@ -8,6 +8,7 @@
 #container{
     width: 1000px;
     font-family: 'Courier New';
+    outline: 3px solid black;
 }
 .nav{
     background-color: #333333;
@@ -37,7 +38,7 @@ a{
     text-decoration: none;
 }
 
-.btn{
+.btn1{
     height: 25px;
     width: 90px;
     background-color: turquoise;
@@ -50,31 +51,32 @@ a{
 .main{
     width: 1000px;
     height: 700px;
-    background-color: lightgrey;
+    background-color: white;
+    display: flex;
+    padding-top: 45px;
 }
+
+/* col1 */
 
 .col1{
     width: 500px;
     height: 900px;
-    background-color: lightskyblue;
-}
-
-.col2{
-    width: 500px;
-    height: 900px;
-    background-color: plum;
+    background-color: white;
+    padding-left: 90px;
 }
 
 .user-card{
-    outline: 2px solid black;
-
+    
+    width: 364px;
+    margin-left: 75px;
+    outline: 3px solid gray;
 }
 
 .user-circle{
     position: relative;
     top: 49px;
     margin-left: 15px;
-    /* margin-top: 30px; */
+    
 }
 
 .user-circle > img{
@@ -93,10 +95,14 @@ a{
 
 .lower-nav{
     background-color: whitesmoke;
-    height: 141px;
+    height: 170px;
     padding-left: 10px;
     padding-top: 17px;
 
+}
+
+.lower-nav > .p{
+    margin-top: 24px;
 }
 
 .map-marker{
@@ -129,3 +135,132 @@ a{
     height: 15px;
     width: 15px;
 }
+
+/* Education div */
+
+.education{
+    width: 364px;
+    margin-left: 75px;
+    outline: 3px solid gray;
+    margin-top: 40px;
+
+    }
+
+.upper-edu{
+    background-color: black;
+    color: whitesmoke;
+    width: 364px;
+    height: 20px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    
+}
+
+.h4{
+    width: 330px;
+}
+
+.lower-edu{
+    background-color: whitesmoke;
+    height: 141px;
+    padding-left: 10px;
+    padding-top: 17px;
+}
+
+.lower-edu > .p{
+    margin-top: 15px;
+}
+
+.lower-edu > p{
+    margin-top: 15px;
+    color: gray;
+}
+
+/* col2 */
+
+.col2{
+    width: 500px;
+    height: 900px;
+    padding-left: 30px;
+    
+}
+
+.connections-request{
+    width: 235px;
+    height: 150px;
+    display: inline-block;
+    
+    outline: 3px solid gray;
+    
+}
+
+.maincr{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    }
+
+.btn2{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-top: 6px;
+}
+
+.h5{
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+
+.your-connections{
+    width: 235px;
+    height: 300px;
+    margin-top: 40px;
+    display: inline-block;
+
+    outline: 3px solid gray;
+}
+
+.mainyr{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    padding-left: 15px;
+
+}
+
+.btn3{
+    height: 25px;
+    width: 40px;
+    border-radius: 45%;
+    background-color: gray;
+    margin-top: 6px;
+}
+
+.H5{
+    padding-left: 31px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+

@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 900px;
+    height: 650px;
+    outline: 2px solid black
+}
+
+/* topnav bar */
+
+.topnav{
+    background-color: gray;
+    color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.nav-title{
+    margin-left: 25px;
+}
+
+.nav-links{display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 72%;}
+
+.search{
+    width: 149px;
+    outline: 2px solid black
+    }
+
+.btn1{
+    height: 25px;
+    width: 75px;
+    background-color: blue;
+    color: white;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+}
+
+.main{
+    width: 748px;
+    height: 540px;
+    /* outline: 2px solid black; */
+    display: flex;
+    padding-top: 30px;
+    margin-left: 76px;
+}
+
+
+
+
+.col1{
+    
+    width: 450px;
+    height: 570px;
+    /* padding-left: 77px; */
+    
+}
+
+.subcontents1{
+    outline: 3px solid black;
+    display:inline-flex;
+    width: 440px;
+    height: 175px;
+    padding-left: 10px;
+}
+
+.subcontents2{
+    outline: 3px solid black;
+    display:inline-flex;
+    width: 440px;
+    height: 175px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.p{
+    margin-top: 50px;
+    padding-left: 32px;
+}
+
+.ninja{
+    margin-top: 5px;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.btn2{
+    height: 25px;
+    width: 75px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    margin-top: 25px;
+}
+
+
+
+.col2{
+    
+    width: 450px;
+    height: 570px;
+
+}
+
+.subcontents3{
+    outline: 3px solid black;
+    width: 246px;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.btn3{
+    height: 25px;
+    width: 170px;
+    background-color: green;
+    color: black;
+    box-shadow: 3px 3px black;
+    border: 3px solid black;
+    margin-top: 25px;
+}

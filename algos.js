@@ -23,3 +23,61 @@ console.log("there are " + countPositives + " positive values");
 // NEED A TEMP VARIABLE TO STORE A VALUE
 // SWAP THE VALUES WITHIN THE ARRAY
 // RETURN THE ARRAY
+
+// var floor = Math.floor(1.9)
+// var ceil = Math.ceil(3.2)
+// var random = Math.random()
+
+// console.log(floor)
+// console.log(ceil)
+// console.log(random)
+
+
+
+// --------------------------------------------------------------------
+
+// function d6() {
+//     var max = 6
+//     var min = 1
+//     var roll = Math.floor(Math.random() * (max - min + 1) + min);
+//     return roll
+// }
+
+// var playerRoll = d6();
+// console.log(playerRoll)
+
+// Magic Eight-Ball:
+// Using the following array, write a function that will answer all of our questions by randomly choosing a response.
+// Our terminal should print out one of these answer upon calling on your function!
+function eightBall(){
+var lifesAnswers = [
+    "It is certain.",
+    "It is decidedly so.",
+    "Without a doubt.",
+    "Yes – definitely.",
+    "You may rely on it.",
+    "As I see it, yes.",
+    "Most likely.",
+    "Outlook good.",
+    "Yes.",
+    "Signs point to yes.",
+    "Reply hazy, try again.",
+    "Ask again later.",
+    "Better not tell you now.",
+    "Cannot predict now.",
+    "Concentrate and ask again.",
+    "Don't count on it.",
+    "My reply is no.",
+    "My sources say no.",
+    "Outlook not so good.",
+    "Very doubtful."
+];
+var results = Math.floor(Math.random() * lifesAnswers.length);
+return lifesAnswers[results]
+}
+
+var answers = eightBall()
+console.log(answers)
+
+
+

@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 900px;
+    height: 550px;
+    outline: 3px solid black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main{
+    
+}
+
+
+
+
+.navbar{
+    
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    margin-left: 68px;
+    margin-right: 68px;
+    
+   
+}
+
+.navbar h1{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.row{
+    display: flex;
+}
+
+.col1{
+    flex: 1;
+    
+}
+
+img{
+    width: 75px;
+    height: 75px;
+
+}
+
+.left-box > img,
+.left-box > p,
+.left-box > h3{
+    margin-top: 35px;
+    padding-left: 60px;
+}
+
+.likesNeil,
+.likesNichole,
+.likesJim,
+.top{
+    display: inline-flex;
+}
+
+
+
+.left-box{
+    width: 200px;
+    height: 250px;
+    outline: 3px solid black;
+    margin-left: 68px;
+}
+
+.col2{
+    flex: 2;
+ 
+}
+
+
+.topright_box{
+    width: 500px;
+    height: 100px;
+    outline: 3px solid black;
+    padding: 15px;
+    font-family: sans-serif;
+    
+    
+}
+
+.likes,
+.top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.like_button{
+    width: 57px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 3px black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bottom{
+    
+    margin-top: 25px;
+}
+
+.midright_box{
+    width: 500px;
+    height: 100px;
+    outline: 3px solid black;
+    padding: 15px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.bottomright_box{
+    width: 500px;
+    height: 100px;
+    outline: 3px solid black;
+    padding: 15px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

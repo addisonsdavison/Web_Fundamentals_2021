@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+
+.box{
+    width: 340px;
+    height: 100px;
+    outline: 3px solid black;
+    padding: 15px;
+    font-family: sans-serif;
+    margin: 85px;
+}
+
+.likes,
+.top{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.like_button{
+    width: 57px;
+    height: 30px;
+    background-color: yellow;
+    color: black;
+    box-shadow: 3px 3px black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bottom{
+    
+    margin-top: 25px;
+}
+
+
+

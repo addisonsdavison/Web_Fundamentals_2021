@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 1050px;
+    min-height: 500px;
+    outline: 3px solid black;
+    
+}
+
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+    
+}
+
+.navbar h3{
+
+    padding-left: 15px;
+}
+
+.navbar2{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.navbar2 .nav-title{
+    background-color: red;
+    margin-left: 66px;
+    
+}
+
+
+
+.navlinks{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 75%;
+    margin-right: 25px;
+}
+
+.list img{
+    width: 20px;
+    height: 20px;
+}
+
+/* main */
+
+.main{
+    width: 1008px;
+    min-height: 600px;
+    background-color: lightgray;
+    display: flex;
+    padding-top: 25px;
+    padding-left: 42px;
+}
+
+.leftnav{
+    text-align: center;
+}
+    
+    
+
+
+
+.box1,
+.box2,
+.box3{
+    width: 225px;
+    background-color: white;
+    
+    border-radius: 25px;
+}
+
+.box2,
+.box3{
+    margin-top: 25px;
+}
+
+.box1{
+    height: 275px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.box1 h5{
+    background-color: black;
+    border-top: 2px solid black;
+    margin-top: 5px;
+
+}
+
+.box1 p{
+    margin-top: 25px;
+}
+
+.box2 p{
+    padding-top: 20px;
+}
+
+.box3 p{
+    padding-top: 20px;
+}
+
+.box2,
+.box3{
+    height: 112px;
+}
+
+.btn1{
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    background-color: white;
+    margin-left: 3px;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+    margin-top: 10px;
+
+}
+    
+.btn2{
+    height: 25px;
+    width: 80px;
+    text-align: center;
+    background-color: blue;
+    margin-left: 3px;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+
+}
+
+.btn3{
+    height: 25px;
+    width: 160px;
+    text-align: center;
+    background-color: yellow;
+    margin-left: 3px;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+    margin-top: 10px;
+}
+
+
+
+/* Banners */
+
+.rightnav{
+    width: 660px;
+    height: 526px;
+    background-color: white;
+    border-radius: 30px;
+    
+    margin-left: 38px;
+    padding: 20px;
+}
+
+.rightnav h1{
+    background-color: white;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+
+.red-text{
+    color: red;
+}
+
+
+
+.ban1{
+    /* background-color: blanchedalmond; */
+    height: 125px;
+    display: flex;
+}
+
+.ban1box1,
+.ban1box2,
+.ban1box3{
+    width: 220px;
+    text-align: center;
+}
+
+.ban1box1,
+.ban1box3{
+    padding-top: 25px;
+}
+
+.ban1box1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.ban1box2{
+    padding-top: 50px;
+}
+
+.ban1box3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.ban2{
+    /* background-color: lightpink; */
+    height: 125px;
+    display: flex;
+}
+
+.ban2box1,
+.ban2box2,
+.ban2box3{
+    width: 220px;
+    text-align: center;
+}
+
+.ban2box1,
+.ban2box3{
+    margin: 15px;
+    padding-top: 15px;
+}
+
+.ban2box2{
+    padding-top: 50px
+}
+
+.ban3{
+    /* background-color: rgb(109, 138, 156); */
+    height: 125px;
+    display: flex;
+}
+
+.ban3box1,
+.ban3box2,
+.ban3box3{
+    width: 220px;
+    text-align: center;
+}
+
+.ban3box1,
+.ban3box3{
+    padding-top: 50px
+}
+
+.ban4{
+    height: 125px;
+    width: 660px;
+    /* background-color: lightseagreen; */
+    border-top: 2px solid black;
+    /* text-align: center; */
+    padding-top: 25px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+
+
+
+

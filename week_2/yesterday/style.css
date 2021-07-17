@@ -188,7 +188,7 @@ h1{
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    position: relative;
+    position: fixed;
     bottom: 5px;
     
 }

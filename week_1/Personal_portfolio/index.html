@@ -6,70 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Profile</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div id="container">
-        <h1>Addison Davison</h1>
-        <img src="IMG_2135.jpeg" alt="IMG_2135.jpeg">
-        <p><a href="https://github.com/" alt="my_github">my github</a></p>
-        <h3>Technologies</h3>
-        <table>
-            <tr>
-                <th>Front End</th>
-                <th>Python</th>
-                <th>JavaScript</th>
-                <th>Database</th>
-                <th>Concepts</th>
-            </tr>   
-            <tr>
-                <td>HTML5</td>
-                <td>DJango</td>
-                <td>Express</td>
-                <td>MySQL</td>
-                <td>AJAX</td>
-            </tr>
-            <tr>
-                <td>CSS3</td>
-                <td>Flask</td>
-                <td>Mongoose</td>
-                <td>MongoDB</td>
-                <td>OOP</td>
-            </tr>
-            <tr>
-                <td>Bootstrap</td>
-                <td>Unittest</td>
-                <td>React</td>
-                <td></td>
-                <td>REST</td>
-            </tr>
-        </table>
-
-        <h3>Social Snakes</h3>
-        <h5>Social Media App made in Python- code | deployed</h5>
-        <h3>Contact Me</h3>
-        <form action="/process" method="post">
-            <div>
-                <label>Name:</label>
-                <input type="text" name="name" 
-                placeholder="first/last name..." >
-                <label>Email address: </label>
-                <input type="text" name="email" 
-                placeholder="Your email..." >
+        <div class="main">
+            <div class="nav">
+                <h1>Addison Davison</h1>
+                    <ul class="nav-links">
+                        <li>home</li>
+                        <li>my profile</li>
+                        <li><a href="https://github.com/" alt="my_github" class="link">my github</a></li>
+                    </ul>
             </div>
-            <div>
-                <h3>Message: <textarea name="comment" cols="20" rows="3"></textarea></h3>
-            </div>
-            <div>
-                <input type="submit" value="Send message">
-            </div>
+            <section class="s1">
+                <div class="col1">
+                    <img src="main.jpeg" alt="main.jpeg">
+                </div>
+                <div class="col2"></div>
+            </section> 
+                    
+            <h3>Technologies</h3>
+            <table>
+                <tr>
+                    <th>Front End</th>
+                    <th>Python</th>
+                    <th>JavaScript</th>
+                    <th>Database</th>
+                    <th>Concepts</th>
+                </tr>   
+                <tr>
+                    <td>HTML5</td>
+                    <td>DJango</td>
+                    <td>Express</td>
+                    <td>MySQL</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Flask</td>
+                    <td>Mongoose</td>
+                    <td>MongoDB</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>Unittest</td>
+                    <td>React</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </table>
+
+            <h3>Social Snakes</h3>
+            <h5>Social Media App made in Python- code | deployed</h5>
+            <h3>Contact Me</h3>
+            <form action="/process" method="post">
+                <div>
+                    <label>Name:</label>
+                    <input type="text" name="name" 
+                    placeholder="first/last name..." >
+                    <label>Email address: </label>
+                    <input type="text" name="email" 
+                    placeholder="Your email..." >
+                </div>
+                <div>
+                    <h3>Message: <textarea name="comment" cols="20" rows="3"></textarea></h3>
+                </div>
+                <div>
+                    <input type="submit" value="Send message">
+                </div>
 
 
 
 
-        </form>
+            </form>
+        </div>    <!-- main closing tag -->
+
     </div><!-- container closing tag -->
 
-    
 
 
 
